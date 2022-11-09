@@ -1,0 +1,31 @@
+{
+	"name": "startup",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"key-mirror": "^1.0.1",
+		"lodash": "^4.17.4",
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.47.1",
+		"react-native-router-flux": "^4.0.0-beta.16",
+		"react-native-vector-icons": "^4.3.0",
+		"react-redux": "^5.0.5",
+		"redux": "^3.7.2",
+		"redux-logger": "^3.0.6",
+		"redux-persist": "^4.8.3",
+		"redux-thunk": "^2.2.0"
+	},
+	"devDependencies": {
+		"babel-jest": "20.0.3",
+		"babel-preset-react-native": "2.1.0",
+		"jest": "20.0.4",
+		"react-test-renderer": "16.0.0-alpha.12"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
